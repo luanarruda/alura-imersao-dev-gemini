@@ -22,6 +22,7 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout */
@@ -81,13 +82,14 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #8a1414; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    text-decoration:none; /* Remove o sublinhado padrão dos links */
+    color: #325981; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
